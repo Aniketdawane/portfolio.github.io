@@ -1,0 +1,302 @@
+.navbarcss {
+    border:1px solid rgb(2, 246, 222);
+    /* background-color:transparent  !important; */
+    font-size: 20px;
+    font: weight 70px;;
+    font-family:'Josefin Sans',sans-serif;
+    color:#039f6b !important;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+
+}
+
+body {
+    background: #000;
+}
+
+.wrapper {
+    /* border: 2px solid green; */
+    width: 1152px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
+.round-1 {
+    position: absolute;
+    top: 5%;
+    left: 32%;
+    width: 13em;
+    height: 13em;
+    border-radius: 50%;
+    box-shadow: 0 0 50px #D84869;
+    background: linear-gradient(-25deg, #D84869, #F46641);
+}
+.round-2 {
+    position: absolute;
+    top: 50%;
+    right: 23%;
+    width: 19em;
+    height: 19em;
+    border-radius: 50%;
+    box-shadow: 0 0 50px #5622FF;
+    background: linear-gradient(180deg, #5622FF, #4190FD);
+}
+.box {
+    border: 1px solid rgb(255, 0, 0);
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff1a;
+    backdrop-filter: blur(20px);
+    padding: 1.5em;
+    border-radius: 25px;
+    border: 2px solid #ffffff30;
+    box-shadow: 0 0 30px #0000002a;
+    text-align: center;
+}
+.box h2 {
+    color: #ffffff60;
+    text-transform: capitalize;
+    margin: 15px 0;
+    font-weight: bold;
+}
+.box h2 span {
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.box p {
+    color: #ffffff90;
+    font-size: 14px;
+}
+.icons {
+    margin-top: 20px;
+    position: relative;
+    top: 4rem;
+    display: flex;
+}
+.icons div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 45px;
+    color: #fff;
+    margin: 0 5px;
+}
+.icons div.a1 {
+    background: #3b5998;
+}
+.icons div.a2 {
+    background: #55acee;
+}
+.icons div.a3 {
+    background: #bd081c;
+}
+.icons div.a4 {
+    background: #dc4e41;
+}
+.icons i {
+    font-size: 20px;
+}
+.profile-img {
+    width: 180px;
+    height: 180px;
+    /* border: 5px solid #ff676d; */
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+}
+.profile-img img {
+    width: 100%;
+}
+/* .animation{
+    border: 2px solid red;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: -3rem; */
+    
+/* .change_content:after {
+    content: "";
+    animation: changetext 10s infinite linear;
+    color: #00b894;
+}
+
+@keyframes changetext {
+    0% {
+        content: "Darjeeling";
+    }
+
+    20% {
+        content: "Agra";
+    }
+
+    35% {
+        content: "Jaipur";
+    }
+
+    60% {
+        content: "kerala";
+    }
+
+    80% {
+        content: "delhi";
+    }
+
+    100% {
+        content: "Mumbai";
+    }
+} */
+
+.btn {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #ff676d;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+    top: 9rem;
+    left: 0;
+}
+.project {
+    /* border: 2px solid green; */
+    height: 100vh;
+    background: #ffffff1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team-text {
+    /* border: 2px solid burlywood; */
+    height: 20rem;
+    width: 20rem;
+    border-radius: 0 40px;
+    background: #dd03bc1a;
+    text-align: center;
+    box-shadow: 2px 2px 5px white;
+}
+
+.team-text h2 {
+    font-weight: bold;
+    /* text-shadow: 2px 2px 3px rgb(77, 0, 4); */
+}
+.btn1 {
+    position: relative;
+    top: 2rem;
+    padding: 5px;
+    border-radius: 50px;
+    background-color:#ff676d;
+    border: transparent;
+}
+
+.about {
+    height: 100%;
+}
+.subabout{
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px  white;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row .aniket img {
+    /* border: 2px solid red; */
+    opacity: 0.4;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.row .logo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.w3-light-grey {
+    height: 10px;
+    border-radius: 50px;
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px blue;
+}
+.w3-red{
+    height: 9px;
+    color:#fff;
+    font-weight: bold;
+    font-size: 15px;
+    background-color:rgb(4, 195, 4);
+    opacity: 0.8;
+    width: 20px;
+    border-radius: 50px;
+}
+.w3-button {
+    border: transparent;
+    color: white;
+    font-weight: bold;
+    background-color:#ff676d;
+    border-radius: 15px;
+    /* box-shadow: 2px 4px 5px rgb(172, 172, 201); */
+}
+.myskill span{
+    font-weight: bold;
+    color:yellow;
+}
+.skills{ 
+    background: #ffffff1a;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.skills .skill{
+    width: 50rem;
+    /* border: 2px solid white; */
+}
+.team-text h2{
+    font-size:50px;
+    color: #039f6b; 
+}
+.text h1, p {
+    opacity: 0.5;
+    color: white;
+}
+.textbody1 .font-weight1{
+    color: gold;
+    text-shadow: 0.5px 0.5px 0.5px white;
+}
+.textbody2 .font-weight2{
+    color:cyan;
+    text-shadow: 0.5px 0.5px 0.5px white;
+}
+.textbody3 .font-weight3{
+    color:green;
+    text-shadow: 0.5px 0.5px 0.5px white;
+}
+.textbody1,.textbody2,.textbody3{
+    transition: all ease 0.5s;
+}
+
+.textbody1:hover{
+    margin-top: 10rem;
+    cursor: pointer;
+}
+.textbody2:hover{
+    margin-top: 10rem;
+    cursor:pointer
+}
+.textbody3:hover{
+    margin-top: 10rem;
+    cursor:pointer
+}
+ 
